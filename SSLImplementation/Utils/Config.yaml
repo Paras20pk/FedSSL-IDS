@@ -1,0 +1,10 @@
+# SSL Pre-training
+ssl_epochs: 50
+ssl_batch_size: 512
+unlabeled_data_path: "data/cic_ids2017_unlabeled.npy"
+
+# Fine-tuning
+finetune_epochs: 20
+finetune_batch_size: 64
+finetune_lr: 0.0001
+labeled_data_path: "data/cic_ids2017_labeled.npy"
